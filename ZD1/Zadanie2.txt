@@ -1,0 +1,6 @@
+Przsechowywanie danych w jednej tabeli prowadzi do nadmiarowoœci, utrudnia ich poprawianie, usuwanie i aktualizowanie.
+
+Np. w bazie danych ksi¹¿ek lepiej by³oby przechowywaæ dane autorów w osobnej tabeli. Umo¿liwi³oby to szybsz¹ ich edycjê np w przypadku zmiany nazwiska (akurat ten przyk³ad jest bardziej skomplikowany poniewa¿ wypada³oby jednoczeœnie trzymaæ dane z przed aktualizacji).
+W przypadku pojawienia siê cenzury ;) mo¿na ³atwiej usun¹æ ksi¹¿ki wszystkich autorów z "indeksu".
+Przy wprowadzaniu nowych danych ³atwiej wyszukaæ autora istniej¹cego ju¿ w bazie ni¿ przy ka¿dej ksi¹¿ce wpisywaæ go od nowa.
+W bibliotece zwykle jest wiêcej ni¿ jeden egzemplarz ka¿dej ksi¹¿ki, nale¿a³oby wiêc wprowadziæ tabelê egzemplarze w której podaw³aoby siê identyfikator tytu³u. Wielokrotne wprowadzanie tej samej ksi¹¿ki w systemie jednotabelowym doprowadzi³o by do du¿ej iloœci b³êdów i zmiejszy³o efektywnoœæ indeksów.
